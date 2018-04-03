@@ -1,7 +1,7 @@
 # Generated automatically by update.sh
 # Do no edit this file
 
-FROM bigtruedata/scala:2.10.5-alpine
+FROM vial8/scala:latest
 
 # Install build dependencies
 RUN apk add --no-cache --virtual=.dependencies tar wget
